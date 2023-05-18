@@ -3,3 +3,7 @@
 -- fastn.package: hello-package
 
 -- fastn.dependency: fifthtry.github.io/doc-site 
+
+-- fastn.dependency: fifthtry.github.io/admonitions
+
+-- fastn.dependency: fifthtry.github.io/winter-cs 
