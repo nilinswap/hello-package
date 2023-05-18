@@ -1,0 +1,7 @@
+-- import: fifthtry.github.io/doc-site as ds
+
+-- ds.page: hello world
+
+Hello
+
+-- end: ds.page

@@ -1,0 +1,27 @@
+-- import: fifthtry.github.io/doc-site as ds
+-- import: fifthtry.github.io/admonitions as cbox
+-- import: fifthtry.github.io/winter-cs as wc
+-- import: hello-package/assets
+
+-- ds.page: hello world
+site-logo: $assets.files.images.kasperiteNaam.png
+colors: $wc.main
+
+Consequat qui qui ex duis dolor quis fugiat adipisicing et minim incididunt officia. Id eu officia deserunt ut. Esse do velit consequat dolore.
+
+-- ds.h1: About this page
+
+This page is created using 4 packages. They are
+- admonitions
+- demo-site
+
+
+-- cbox.info: Admonitions Site 
+
+Proident et aliqua quis Lorem ipsum labore do eiusmod. Ut consequat commodo reprehenderit est proident aliqua proident ad. Cillum velit culpa elit elit ad culpa exercitation. Dolore culpa reprehenderit et ullamco in deserunt laboris culpa occaecat irure aliqua id laborum. Et et qui commodo duis consectetur eiusmod consectetur eu dolor consequat culpa exercitation. Ullamco fugiat do duis consectetur tempor ex officia excepteur amet ea ea nulla eu culpa.
+
+Non ut irure aliqua consequat qui velit ipsum laboris et commodo reprehenderit non Lorem. Amet mollit sit ea esse magna anim eu in nisi. Laborum dolore proident nostrud in ex. Officia irure cupidatat veniam pariatur ullamco officia fugiat eiusmod mollit eiusmod amet veniam ex cupidatat. Occaecat qui aliqua adipisicing commodo amet sit quis officia. Amet enim ea aliquip pariatur. Pariatur dolore minim et dolor ut dolore amet labore veniam cupidatat elit labore duis.
+
+-- end: cbox.info
+
+-- end: ds.page
