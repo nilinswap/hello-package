@@ -1,8 +1,10 @@
 -- import: fifthtry.github.io/doc-site as ds
 -- import: fifthtry.github.io/admonitions as cbox
 -- import: fifthtry.github.io/winter-cs as wc
+-- import: hello-package/assets
 
 -- ds.page: hello world
+site-logo: $assets.files.images.kasperiteNaam.png
 colors: $wc.main
 
 Consequat qui qui ex duis dolor quis fugiat adipisicing et minim incididunt officia. Id eu officia deserunt ut. Esse do velit consequat dolore.
