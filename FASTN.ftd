@@ -1,6 +1,6 @@
 -- import: fastn
 
--- fastn.package: nilinswap.github.io/hello-package
+-- fastn.package: hello-package
 
 -- fastn.dependency: fifthtry.github.io/doc-site 
 
