@@ -1,7 +1,8 @@
 -- import: fifthtry.github.io/doc-site as ds
 -- import: fifthtry.github.io/admonitions as cbox
 -- import: fifthtry.github.io/winter-cs as wc
--- import: nilinswap.github.io/hello-package/assets
+-- import: hello-package/assets
+
 
 
 -- ds.page: hello world
@@ -16,6 +17,16 @@ This page is created using 4 packages. They are
 - admonitions
 - demo-site
 
+-- person.persona-card: Amit Upadhyay
+profile: CEO, FifthTry Pvt. Ltd.
+avatar: $assets.files.images.house.jpg
+email: amitu@fifthtry.com
+phone: +91 1234123412
+address: 66737 Reinke Park, Banglore - 560068
+
+Sunglass(1, 2, 3), Dare to be scared book 😜, codename game, Bharat game, Chai
+Garam game
+
 
 -- cbox.info: Admonitions Site 
 
@@ -23,6 +34,92 @@ Proident et aliqua quis Lorem ipsum labore do eiusmod. Ut consequat commodo repr
 
 Non ut irure aliqua consequat qui velit ipsum laboris et commodo reprehenderit non Lorem. Amet mollit sit ea esse magna anim eu in nisi. Laborum dolore proident nostrud in ex. Officia irure cupidatat veniam pariatur ullamco officia fugiat eiusmod mollit eiusmod amet veniam ex cupidatat. Occaecat qui aliqua adipisicing commodo amet sit quis officia. Amet enim ea aliquip pariatur. Pariatur dolore minim et dolor ut dolore amet labore veniam cupidatat elit labore duis.
 
+-- badge.badge: Dark
+dark: true
+
 -- end: cbox.info
+
+
+
+
+-- chat.message-left: Hellow World! 😀
+
+-- ftd.text: some body of the chat here
+
+-- end: chat.message-left
+
+
+-- chat.message-right: Hey Buddy! 👋
+
+-- ftd.text: some body of the chat here
+
+-- end: chat.message-right
+
+
+-- note.note: A Note!
+
+This is my first live website
+
+
+
+-- quote.scorpion: William Shakespeare
+label: Playwright
+
+To be or not to be, that is the question
+
+
+-- ftd.rive: 
+id: bell
+src: $assets.files.bell.riv
+autoplay: false
+$on-mouse-enter$: $ftd.play-rive(rive = bell, input = Hover)
+$on-mouse-leave$: $ftd.pause-rive(rive = bell, input = Hover)
+
+-- ftd.rive:
+id: vehicle
+src: https://cdn.rive.app/animations/vehicles.riv
+autoplay: false
+artboard: Jeep
+width.fixed.px: 600
+
+-- ftd.text: Idle/Run
+$on-click$: $ftd.toggle-play-rive(rive = vehicle, input = idle)
+align-self: center
+
+
+-- ftd.rive:
+id: octo
+src: $assets.files.octo-loop.riv
+autoplay: true
+$on-mouse-enter$: $ftd.pause-rive(rive = octo, input = Idle)
+$on-mouse-leave$: $ftd.play-rive(rive = octo, input = Idle)
+
+
+-- ftd.row:
+spacing.fixed.px: 20
+
+-- ftd.image:
+src: $assets.files.images.market.jpg
+width.fixed.px: 200
+
+-- ftd.image:
+src: $assets.files.images.house.jpg
+width.fixed.px: 200
+
+-- ftd.image:
+src: $assets.files.images.m1.HEIC
+width.fixed.px: 200
+
+-- ftd.image:
+src: $assets.files.images.m2.HEIC
+width.fixed.px: 200
+
+-- ftd.image:
+src: $assets.files.images.m3.HEIC
+width.fixed.px: 200
+-- end: ftd.row
+
+
+
 
 -- end: ds.page
