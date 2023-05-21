@@ -7,3 +7,20 @@
 -- fastn.dependency: fifthtry.github.io/admonitions
 
 -- fastn.dependency: fifthtry.github.io/winter-cs 
+
+-- fastn.dependency: fifthtry.github.io/bling as bling
+-- fastn.auto-import: bling/badge as badge
+
+-- fastn.dependency: fifthtry.github.io/bling
+-- fastn.auto-import: bling/person as person
+
+-- fastn.dependency: fifthtry.github.io/bling as bling
+-- fastn.auto-import: bling/chat as chat
+
+-- fastn.dependency: fifthtry.github.io/bling
+-- fastn.auto-import: bling/note as note
+
+-- fastn.dependency: fifthtry.github.io/bling as bling
+-- fastn.auto-import: bling/quote as quote
+
+-- fastn.dependency: fastn-community.github.io/saturated-sunset-cs
